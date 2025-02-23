@@ -1,1 +1,1 @@
-# ordered_search_public
+Run `python3 lp.py --help` for help on how to use the solver or try running `python3 lp.py 3 56 1000`
