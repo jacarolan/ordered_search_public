@@ -1,7 +1,6 @@
 Run `python3 lp.py --help` for help on how to use the solver or try running `python3 lp.py 3 56 1000`. 
 
-To illustrate the three main parameters of the solver consider the above example `python3 lp.py 3 56 1000`:
-This will run the solver looking for a k = 3 query exact algorithm for searching a list of n = 56 elements. The grid against which nonnegativity of the polynomials will be checked consists initially of 1000 points. The algorithmic is iterative and after each iteration it may extend the grid with additional points. By default it exports the grids in json files to exports/grids/. 
+To illustrate the three main parameters of the solver consider the above example `python3 lp.py 3 56 1000`. This will run the solver looking for a k = 3 query exact algorithm for searching a list of n = 56 elements. The grid against which nonnegativity of the polynomials will be checked consists initially of 1000 points. The algorithmic is iterative and after each iteration it may extend the grid with additional points. By default it exports the grids in json files to exports/grids/. 
 
 This run will eventually terminate when the solver finds polynomials corresponding to a 3-query algorithm for searching 56 element lists. If a feasible solution has been found the solver will output something like
 
